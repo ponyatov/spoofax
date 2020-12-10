@@ -1,5 +1,5 @@
 #  `spoofax`
-## metaborg Spoofax framework
+## metaborg Spoofax Language Workbench
 
 (c) Dmitry Ponyatov <<dponyatov@gmail.com>> 2020 MIT
 

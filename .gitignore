@@ -3,6 +3,9 @@
 *.swp
 *.log
 # / <section:top>
+# \ <section:mid>
+/spoofax/
+# / <section:mid>
 # \ <section:bot>
 !.gitignore
 # / <section:bot>

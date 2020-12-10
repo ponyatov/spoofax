@@ -23,8 +23,14 @@
 ],
 /* / <section:multi> */
 "files.watcherExclude": {
+    /* \ <section:watcher> */
+    "**/spoofax/**":true,
+    /* / <section:watcher> */
 },
 "files.exclude": {
+    /* \ <section:exclude> */
+    "**/spoofax/*":true,
+    /* / <section:exclude> */
 },
 "files.associations": {
 },
