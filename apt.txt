@@ -1,2 +1,3 @@
 git make wget
-openjdk-11-jdk libaopalliance-java
+openjdk-11-jdk maven
+libaopalliance-java libguava-java libguice-java
