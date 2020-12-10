@@ -11,6 +11,7 @@ DOC        = $(CWD)/doc
 BIN        = $(CWD)/bin
 SRC        = $(CWD)/src
 TMP        = $(CWD)/tmp
+WS         = $(CWD)/workspace
 # / <section:dir>
 # \ <section:tool>
 WGET       = wget -c
@@ -20,7 +21,10 @@ ECLIPSE    = $(CWD)/spoofax/eclipse
 # / <section:obj>
 # \ <section:all>
 .PHONY: all
-all: 	
+all: $(ECLIPSE)	
+	# \ <section:body>
+	$< -data $(WS)
+	# / <section:body>
 # / <section:all>
 # \ <section:doc>
 .PHONY: doc
