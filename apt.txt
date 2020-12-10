@@ -1,2 +1,2 @@
 git make wget
-openjdk-11-jdk
+openjdk-11-jdk libaopalliance-java

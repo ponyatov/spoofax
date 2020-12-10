@@ -7,4 +7,5 @@ github: https://github.com/ponyatov/spoofax
 
 
 * http://metaborg.org/
+  * [`hello`](http://www.metaborg.org/en/latest/source/langdev/start.html)
 
