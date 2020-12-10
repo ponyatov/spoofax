@@ -1,0 +1,8 @@
+# \ <section:top>
+*~
+*.swp
+*.log
+# / <section:top>
+# \ <section:bot>
+!.gitignore
+# / <section:bot>

@@ -1,0 +1,36 @@
+/* \ <section:top> */
+{
+/* / <section:top> */
+/* \ <section:mid> */
+/* \ <section:multi> */
+"multiCommand.commands": [
+    {
+        "command": "multiCommand.f11",
+        "sequence": [
+            "workbench.action.files.saveAll",
+            {"command": "workbench.action.terminal.sendSequence","args": {"text":
+                "\u000Dclear;make\u000D"
+            }}]
+    },
+    {
+        "command": "multiCommand.f12",
+        "sequence": [
+            "workbench.action.files.saveAll",
+            {"command": "workbench.action.terminal.sendSequence","args": {"text":
+                "\u000Dclear;make\u000D"
+            }}]
+    },
+],
+/* / <section:multi> */
+"files.watcherExclude": {
+},
+"files.exclude": {
+},
+"files.associations": {
+},
+"editor.tabSize": 4,
+"workbench.tree.indent": "32",
+/* / <section:mid> */
+/* \ <section:bot> */
+}
+/* / <section:bot> */
